@@ -18,7 +18,7 @@ fi
 echo "✅ Starting AI Service on port 8000..."
 cd apps/ai_service
 source .venv/bin/activate
-.venv/bin/uvicorn api:app --port 8000 &
+python3 -m uvicorn api:app --port 8000 &
 AI_PID=$!
 cd ../..
 

@@ -1,5 +1,7 @@
 # Provider Vault
 
+> **eMRTS Intern Project:** This project is one of four instructional projects developed as part of intern training at eMRTS.
+
 A pedagogical polyglot microservices project demonstrating AI engineering, concurrent data fetching, and modern web development using medical provider data.
 
 ## 🎯 Project Purpose

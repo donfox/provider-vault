@@ -92,7 +92,7 @@ provider_vault/
 │       ├── db_client.py        # PostgreSQL integration
 │       ├── interactive_demo.py # CLI testing tool
 │       ├── tests/              # Comprehensive test suite
-│       ├── EVAL_FRAMEWORK.md   # Testing methodology
+│       ├── pytest.ini          # Test markers and config
 │       └── README.md
 │
 ├── prototypes/

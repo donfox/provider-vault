@@ -174,7 +174,7 @@ python interactive_demo.py -i
 # Try commands: desc, related, dist, symptoms, search, faq
 ```
 
-## �� Learning Objectives
+## Learning Objectives
 
 ### Phase 1: CLI Prototype (Elixir)
 ✅ Concurrent data fetching with Task.async_stream  
@@ -219,8 +219,8 @@ python interactive_demo.py -i
 
 - [AI Service README](apps/ai_service/README.md) - AI functions and API endpoints
 - [Web App README](apps/web/README.md) - Phoenix application structure
-- [Testing Guide](apps/ai_service/TESTING_GUIDE.md) - Comprehensive testing strategies
-- [Eval Framework](apps/ai_service/EVAL_FRAMEWORK.md) - Testing non-deterministic AI
+- [AI Service Tests](apps/ai_service/tests/) - Unit and integration test suite
+- [Pytest Config](apps/ai_service/pytest.ini) - Test markers and execution config
 - [CLI Prototype](prototypes/cli_v1_7/README.md) - Original development history
 
 ## 🧪 Testing
@@ -286,9 +286,11 @@ This is a pedagogical project designed for learning. Feel free to:
 - **FastAPI**: https://fastapi.tiangolo.com
 - **OpenAI API**: https://platform.openai.com/docs
 
-## 📄 License
+## License
 
-MIT License - See LICENSE file for details
+This project is proprietary and confidential. Usage, copying, modification, or distribution is not permitted without prior written consent from the owner.
+
+See [LICENSE](LICENSE) for full terms.
 
 ## 🙏 Acknowledgments
 

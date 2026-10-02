@@ -1,12 +1,20 @@
 # Provider Vault
 
-> **eMRTS Intern Project:** This project is one of four instructional projects developed as part of intern training at eMRTS.
+A polyglot microservices application demonstrating AI engineering, concurrent data fetching, and modern web development using medical provider data.
 
-A pedagogical polyglot microservices project demonstrating AI engineering, concurrent data fetching, and modern web development using medical provider data.
+## Portfolio Context
+
+I built Provider Vault for public portfolio display and technical discussion with interns. Interns were discussion participants only; they did not contribute code and are not co-authors. This is an independent demonstration/proof of concept, not a production healthcare service or medical advice tool.
+
+Provider Vault is one of three independent healthcare-related projects in this portfolio. They explore different parts of the healthcare data space and are not integrated into a shared runtime or end-to-end system:
+
+- [X12Translator](https://github.com/donfox/X12Translator) parses and translates X12 837 claim files.
+- [Medicaid Claims Checker](https://github.com/donfox/medicaid_claims_checker) evaluates claims against configurable rules and provider data.
+- **Provider Vault** demonstrates provider-directory features and AI engineering patterns.
 
 ## 🎯 Project Purpose
 
-Provider Vault is designed to teach **AI engineering and modern software architecture** to interns and developers. It demonstrates:
+Provider Vault showcases **AI engineering and modern software architecture** in a working application. It demonstrates:
 
 - Real-world AI integration patterns (RAG, prompt engineering, testing non-deterministic systems)
 - Polyglot microservices architecture
@@ -275,7 +283,7 @@ python eval_runner.py --run-automated
 
 ## 🤝 Contributing
 
-This is a pedagogical project designed for learning. Feel free to:
+Suggestions and pull requests are welcome. Good places to start:
 - Explore the code
 - Extend features
 - Experiment with AI prompts
